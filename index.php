@@ -2,14 +2,14 @@
 error_reporting(0);
 
 /* Variables */
-$database="ocdkp";
+$database="zenrobin";
 $rr_table="robintable"; /* round robin main table */
 $rrh_table="awarded_loot"; /* round robin history table of awarded loot */
-$user="ocdkp";
-$pw="0Cdkp";
-$server = "mysql1037.servage.net";
+$user="zenrobin";
+$pw="Welcome01";
+$server = "localhost";
 $default_view="Druid";
-$adminpw="oceaniaruleswow";
+$adminpw="Passw0rd01";
 
 /* globals */
 global $adminflag, $submit, $conn, $db, $rr_table, $rrh_table, $viewselect, $adminpw, $pwd;
@@ -33,7 +33,7 @@ if ($submit != "alogin") {
 ?>
 <html>
 <head>
-<title>Oceania Guild: Round Robin Loot</title>
+<title>ZenRobin: Round Robin Loot Tool v1.00</title>
 <?php if ($adminflag) { ?><script src="js/rr.js" type="text/javascript"></script><?php } ?>
 
 <link rel="stylesheet" href="rr.css" type="text/css" media="screen">
